@@ -1,0 +1,24 @@
+# Spring Boot Application Configuration
+
+server:
+  port: 8096
+
+spring:
+  datasource:
+    # H2 in-memory database configuration for testing
+    url: jdbc:h2:mem:testdb
+    driver-class-name: org.h2.Driver
+    username: sa
+    password:
+    h2:
+      console:
+        enabled: true
+
+  h2:
+    console:
+      path: /h2-console
+
+  logging:
+    level:
+      root: INFO
+      com.example.preferences: DEBUG
