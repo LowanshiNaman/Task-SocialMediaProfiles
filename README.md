@@ -25,10 +25,13 @@ This repository contains the code for a social media aggregator application that
    ```bash
    git clone https://github.com/LowanshiNaman/Task-SocialMediaProfiles.git
    cd Task-SocialMediaProfiles
+   
+2. Checkout to master branch
+**git checkout master**
 
-2. Build the Project
+3. Build the Project
 **mvn clean install**
 
-3. Run the Application
+4. Run the Application
 **mvn spring-boot:run**
 
